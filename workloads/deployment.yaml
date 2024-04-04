@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: hello-app-demo
-        image: docker pull nginx:stable-alpine
+        image: nginx:stable-alpine
         ports:
         - name: hello-app-port
           containerPort: 80
